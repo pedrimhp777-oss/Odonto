@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Estes valores são fallback para crawlers que não executam JavaScript.
+       A IA deve substituir pelos dados reais do cliente. -->
+  <meta name="description" content="Clínica odontológica — cuidado, precisão e proximidade. Apresente tratamentos e facilite o agendamento.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#12343b">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Nome da Clínica — Odontologia com cuidado, precisão e proximidade">
+  <meta property="og:description" content="Clínica odontológica — cuidado, precisão e proximidade. Apresente tratamentos e facilite o agendamento.">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:image:alt" content="Sua Clínica Odontológica">
+  <meta property="og:image:type" content="image/png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nome da Clínica — Odontologia com cuidado, precisão e proximidade">
+  <meta name="twitter:description" content="Clínica odontológica — cuidado, precisão e proximidade. Apresente tratamentos e facilite o agendamento.">
+  <meta name="twitter:image" content="assets/og-image.png">
+  <title>Nome da Clínica — Odontologia com cuidado, precisão e proximidade</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <div class="site-bg" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-noise"></div>
+  </div>
+  <header class="header" data-header>
+    <div class="container nav-shell">
+      <a class="brand" href="#inicio" data-brand aria-label="Página inicial"></a>
+      <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Navegação principal"></nav>
+    </div>
+  </header>
+  <main id="main"></main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#inicio" data-brand></a>
+        <p data-footer-description></p>
+        <p class="footer-address" data-footer-address></p>
+      </div>
+      <nav class="footer-nav" aria-label="Navegação do rodapé" data-footer-nav></nav>
+      <small data-copyright></small>
+    </div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="data/site.config.js" defer></script>
+  <script src="data/content.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
